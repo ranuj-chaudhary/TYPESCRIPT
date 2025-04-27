@@ -21,7 +21,6 @@ Master deeply.
 
 - **Static Typing & Type Inference**  
   Learn how TypeScript guesses types for you, and when to annotate explicitly.
-  
 - **Interfaces vs Type Aliases**  
   Understand the subtle differences and when to use each.
 
@@ -34,7 +33,8 @@ Master deeply.
 ### 💭 Mindset Shift
 
 > Learn the difference between:
-- **What is** (existing structure)  
+
+- **What is** (existing structure)
 - **What could be** (possible shapes)
 
 This will help you model types more accurately and make fewer assumptions.
@@ -78,7 +78,8 @@ This will help you model types more accurately and make fewer assumptions.
 - **Mapped Types & Conditional Types**  
   Create types like "all keys optional" or "all values required and numbers".
 
-- **Utility Types**  
+- **Utility Types**
+
   - `Partial<T>`, `Pick<T, K>`, `Omit<T, K>`, `Record<K, V>` — your everyday tools.
 
 - **Decorators**  
@@ -98,19 +99,23 @@ This will help you model types more accurately and make fewer assumptions.
 ## 🛠️ Bonus — Best Practices & Pro Tips
 
 ### 🔧 tsconfig.json tuning
+
 - Use `strict: true` for full type safety
 - Understand what `esModuleInterop`, `moduleResolution`, and `noImplicitAny` do
 
 ### 🧭 OOP in TypeScript
-- Interfaces work well with classes  
-- Use `abstract` classes for base functionality  
+
+- Interfaces work well with classes
+- Use `abstract` classes for base functionality
 - Use access modifiers: `public`, `protected`, `private`, `readonly`
 
 ### 🧪 Type-safe testing
+
 - Use tools like **tsd** or strong types with **Jest/Testing Library**
 - Avoid `any` in your test mocks — use type-safe stubs
 
 ### 🔁 JS interoperability
+
 - Know how to consume JS libraries in TS using:
   - `@types/` packages
   - Ambient declarations (`declare module`)
@@ -121,6 +126,7 @@ This will help you model types more accurately and make fewer assumptions.
 ## 🔄 Bonus Phase: Real-World Application
 
 ### Projects to Build
+
 - Typed React or Next.js app
 - A CLI tool with `yargs` or `commander`
 - A type-safe API client using `fetch` and generics
