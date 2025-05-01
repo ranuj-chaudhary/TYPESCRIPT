@@ -90,7 +90,7 @@ isAdult = !isAdult; // This should work fine
 
 ## Union Type
 
-In TypeScript, a Union Type allows a variable to hold a value of multiple, distinct types, specified using the | operator. It can also be used to specify that a variable can hold one of several specific values. More examples are coming up.
+In TypeScript, a Union Type allows a variable to hold a value of multiple, distinct types, specified using the | (pipe operator). It can also be used to specify that a variable can hold one of several specific values. More examples are coming up.
 
 ```ts
 let tax: number | string = 10;
@@ -177,7 +177,7 @@ let array: (string | boolean)[] = ['apple', true, 'orange', false];
 - Create an array temperatures of type number[] and assign it some values. Then, try to add a string value to it.
 - Create an array colors of type string[] and assign it some values. Then, try to add a boolean value to it.
 - Create an array mixedArray of type (number | string)[] and assign it some values. Then, try to add a boolean value to it.
-
+const temperatur
 ```ts
 // 1. Temperatures
 let temperatures: number[] = [20, 25, 30];
